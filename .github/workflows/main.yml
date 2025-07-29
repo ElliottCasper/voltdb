@@ -66,7 +66,7 @@ jobs:
         uses: cedx/setup-ant@v4.2.0
         with:
           # Whether to fetch the external libraries required by Ant optional tasks.
-          optional-tasks: ant # optional
+          optional-tasks: true # optional
           # The version constraint of the Apache Ant binary.
           version: # optional, default is latest
           
