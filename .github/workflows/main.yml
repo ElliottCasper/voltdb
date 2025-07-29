@@ -60,3 +60,13 @@ jobs:
           compiler: g++ # optional, default is gcc-latest
           
           
+      - name: Setup Ant
+        # You may pin to the exact commit or the version.
+        # uses: cedx/setup-ant@1ea448efb6c44f086dce6e3634cfd1a5bcc3aeb9
+        uses: cedx/setup-ant@v4.2.0
+        with:
+          # Whether to fetch the external libraries required by Ant optional tasks.
+          optional-tasks: ant # optional
+          # The version constraint of the Apache Ant binary.
+          version: # optional, default is latest
+          
