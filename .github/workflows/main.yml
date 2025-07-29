@@ -57,6 +57,6 @@ jobs:
         uses: rlalik/setup-cpp-compiler@v1.2
         with:
           # Compiler to install
-          compiler: # optional, default is gcc-latest
+          compiler: g++ # optional, default is gcc-latest
           
           
