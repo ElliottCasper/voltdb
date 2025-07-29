@@ -81,4 +81,8 @@ jobs:
           optional-tasks: true # optional
           # The version constraint of the Apache Ant binary.
           version: # optional, default is latest
+
+      - name: build 
+        run: |
+          ant 
           
